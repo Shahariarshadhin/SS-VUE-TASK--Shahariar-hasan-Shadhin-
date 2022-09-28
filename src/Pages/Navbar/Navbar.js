@@ -45,10 +45,14 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <div class="form-control">
-                        <input type="text" placeholder="Search" class="input input-bordered input-sm" />
+                        <input type="text" placeholder="Search" class="input input-bordered lg:input-sm" />
                     </div>
                 </div>
             </div>
+
+
+
+
 
 
         </div>
