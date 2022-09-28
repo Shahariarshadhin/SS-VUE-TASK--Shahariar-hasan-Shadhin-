@@ -36,7 +36,7 @@ const ManagementBenefit = () => {
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">Employee Monitoring</h2>
-                        <p className='text-justify'>Employees can be only managed well when you can monitor what are their performance while they are at work. With cutehr, you can track and monitor performance of resources with asigned task and and generate reports, payroll and invoice accordingly along with other features.</p>
+                        <p className='text-justify'>Employees can be the only managed well when you can monitor what are their performance while they are at work. With cutehr, you can track and monitor performance of resources with asigned task and and generate reports, payroll and invoice accordingly along with other features.</p>
 
                     </div>
                 </div>
