@@ -1,4 +1,5 @@
 import React from 'react';
+import './ManagementSystemBenefit.css'
 import dashboard from '../../assests/dashboard.jpg'
 import AE from '../../assests/American E.png'
 import flip from '../../assests/flipkart.png'
@@ -16,11 +17,12 @@ const ManagementBenefit = () => {
     return (
         <div className="lg:px-60 mt-20">
 
-            <h2 className="text-4xl text-center font-bold mb-10">Staff Management System Benefits </h2>
+            <h2 className="text-4xl text-center font-bold mb-6 text-[#686A6C]">Staff Management System Benefits </h2>
+            <progress className="progress lg:mx-96 lg:w-72 mb-10 progress-accent bg-cyan-100"></progress>
 
             <div className='grid grid-cols-1 lg:grid-cols-3 lg:gap-6'>
 
-                <div className="card w-82 bg-base-100 shadow-2xl">
+                <div className="card w-82 bg-base-100 shadow-2xl b-card-1">
                     <figure className="px-10 pt-10">
                         <h1 className="text-7xl drop-shadow-2xl"> <FcBusinessContact></FcBusinessContact></h1>
                     </figure>
@@ -30,7 +32,7 @@ const ManagementBenefit = () => {
 
                     </div>
                 </div>
-                <div className="card w-82 bg-base-100 shadow-2xl">
+                <div className="card w-82 bg-base-100 shadow-2xl b-card-2">
                     <figure className="px-10 pt-10">
                         <h1 className="text-7xl drop-shadow-2xl"><FcSerialTasks></FcSerialTasks></h1>
                     </figure>
@@ -40,7 +42,7 @@ const ManagementBenefit = () => {
 
                     </div>
                 </div>
-                <div className="card w-82 bg-base-100 shadow-2xl">
+                <div className="card w-82 bg-base-100 shadow-2xl b-card-3">
                     <figure className="px-10 pt-10">
                         <h1 className="text-7xl drop-shadow-2xl"><FcTodoList></FcTodoList></h1>
                     </figure>
@@ -58,7 +60,7 @@ const ManagementBenefit = () => {
                 <div className="hero-content flex-col lg:flex-row">
                     <img src={dashboard} className="lg:max-w-lg h-96 rounded-lg " alt='' />
                     <div className='px-12'>
-                        <h1 className="text-4xl font-bold">Full Clarity On Your Entire Business</h1>
+                        <h1 className="text-4xl font-bold text-[#686A6C]">Full Clarity On Your Entire Business</h1>
                         <p className="py-6">The admin dashboard is your everyday tool as a manager. It allows you to add features to your employee app, create content, run and export reports, modify admin access, and supervise all employees from a single place. Automatically track and measure everything in your company app and make all data clearly visible and actionable.</p>
 
                     </div>
@@ -68,7 +70,8 @@ const ManagementBenefit = () => {
 
             <div>
 
-                <h2 className="text-4xl text-center font-bold mb-20 text-[#06b6d4]">Staff Management System Features</h2>
+                <h2 className="text-4xl text-center font-bold mb-6 text-[#06b6d4]">Staff Management System Features</h2>
+                <progress className="progress lg:mx-96 lg:w-72 mb-20 progress-info bg-cyan-100"></progress>
 
                 <div>
 
@@ -125,16 +128,16 @@ const ManagementBenefit = () => {
 
             <div className='mt-20 '>
 
-                <h2 className="text-4xl text-center font-bold mb-20">Loved by customers from 160+ companies worldwide</h2>
+                <h2 className="text-4xl text-center font-bold mb-20 text-[#686A6C]">Loved by customers from 160+ companies worldwide</h2>
                 <div className='grid grid-cols-2 lg:grid-cols-6 gap-6 '>
 
-                    <figure className='lg:h-12 w-20'><img src={flip} alt="Shoes" /></figure>
-                    <figure className='lg:h-12 w-24'><img src={saint} alt="Shoes" /></figure>
-                    <figure className='h-12 w-24'><img src={pepsi} alt="Shoes" /></figure>
+                    <figure className='lg:h-12 w-20 imgb'><img src={flip} alt="Shoes" /></figure>
+                    <figure className='lg:h-12 w-24 imgb'><img src={saint} alt="Shoes" /></figure>
+                    <figure className='h-12 w-24 imgb'><img src={pepsi} alt="Shoes" /></figure>
 
-                    <figure className='lg:h-12 w-24'><img src={AE} alt="Shoes" /></figure>
-                    <figure className='lg:h-12 w-20'><img src={EY} alt="Shoes" /></figure>
-                    <figure className='lg:h-12 w-20'><img src={herbal} alt="Shoes" /></figure>
+                    <figure className='lg:h-12 w-24 imgb'><img src={AE} alt="Shoes" /></figure>
+                    <figure className='lg:h-12 w-20 imgb'><img src={EY} alt="Shoes" /></figure>
+                    <figure className='lg:h-12 w-20 imgb'><img src={herbal} alt="Shoes" /></figure>
 
                 </div>
             </div>
