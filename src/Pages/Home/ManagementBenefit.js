@@ -68,46 +68,52 @@ const ManagementBenefit = () => {
 
             <div>
 
-                <h2 className="text-4xl text-center font-bold mb-20">Staff Management System Features</h2>
+                <h2 className="text-4xl text-center font-bold mb-20 text-[#06b6d4]">Staff Management System Features</h2>
 
                 <div>
 
                     <div className='grid grid-cols-2 lg:grid-cols-2 gap-6 '>
                         <div className="flex items-center p-2">
-                            <BsClockHistory></BsClockHistory>
-                            <div>
-                                <button className='post-btn text-sm px-2'>Employee Onboarding</button>
+                            <BsClockHistory className='text-9xl text-[#06b6d4]'></BsClockHistory>
+                            <div className='px-4 '>
+                                <button className='post-btn text-2xl font-bold text-[#06b6d4]'>Employee Onboarding</button>
+                                <p>You can allow self on boarding or do your employee on boarding from single dashboard.</p>
                             </div>
                         </div>
                         <div className="flex items-center p-2">
-                            <MdOutlineLibraryBooks></MdOutlineLibraryBooks>
-                            <div>
-                                <button className='post-btn text-sm px-2'>Resource Management</button>
+                            <MdOutlineLibraryBooks className='text-7xl text-[#06b6d4]'></MdOutlineLibraryBooks>
+                            <div className='px-4 '>
+                                <button className='post-btn text-2xl font-bold text-[#06b6d4]'>Resource Management</button>
+                                <p>You get easy to navigate options to allocate task and monitor buisness goal and dealines.</p>
                             </div>
                         </div>
                         <div className="flex items-center p-2">
-                            <FaLaptopCode></FaLaptopCode>
-                            <div>
-                                <button className='post-btn text-sm px-2'>Performance Monitoring</button>
+                            <FaLaptopCode className='text-9xl text-[#06b6d4]'></FaLaptopCode>
+                            <div className='px-4 '>
+                                <button className='post-btn text-2xl font-bold text-[#06b6d4]'>Performance Monitoring</button>
+                                <p>With report and analytics data, you can keep a check on employees performance.</p>
                             </div>
                         </div>
 
                         <div className="flex items-center p-2">
-                            <MdOutlineNotificationsActive></MdOutlineNotificationsActive>
-                            <div>
-                                <button className='post-btn text-sm px-2'>Employee Notification</button>
+                            <MdOutlineNotificationsActive className='text-9xl text-[#06b6d4]'></MdOutlineNotificationsActive>
+                            <div className='px-4 '>
+                                <button className='post-btn text-2xl font-bold text-[#06b6d4]'>Employee Notification</button>
+                                <p>Notifiy employees with task allocation and also about events and company updates.</p>
                             </div>
                         </div>
                         <div className="flex items-center p-2">
-                            <FcSurvey></FcSurvey>
-                            <div>
-                                <button className='post-btn text-sm px-2'>Employee Survey</button>
+                            <FcSurvey className='text-9xl text-[#06b6d4]'></FcSurvey>
+                            <div className='px-4 '>
+                                <button className='post-btn text-2xl font-bold text-[#06b6d4]'>Employee Survey</button>
+                                <p>Improve employee engagement by conducting surveys to take feedback from them.</p>
                             </div>
                         </div>
                         <div className="flex items-center p-2">
-                            <FaAmazonPay></FaAmazonPay>
-                            <div>
-                                <button className='post-btn text-sm px-2'>Employee Payrolls Invoices</button>
+                            <FaAmazonPay className='text-9xl text-[#06b6d4]'></FaAmazonPay>
+                            <div className='px-4 '>
+                                <button className='post-btn text-2xl font-bold text-[#06b6d4]'>Employee Payrolls Invoices</button>
+                                <p>Manage employee payment by tracking their work hours and pay the required salaries.</p>
                             </div>
                         </div>
                     </div>
@@ -117,7 +123,7 @@ const ManagementBenefit = () => {
 
 
 
-            <div>
+            <div className='mt-20 '>
 
                 <h2 className="text-4xl text-center font-bold mb-20">Loved by customers from 160+ companies worldwide</h2>
                 <div className='grid grid-cols-2 lg:grid-cols-6 gap-6 '>
@@ -131,6 +137,42 @@ const ManagementBenefit = () => {
                     <figure className='lg:h-12 w-20'><img src={herbal} alt="Shoes" /></figure>
 
                 </div>
+            </div>
+
+            <div className='mt-48 mb-10 bg-blue-100 p-10 rounded-full'>
+                <h2 className="text-4xl text-center font-bold mb-8">Get your team working with Sayburgh</h2>
+
+                <div className='lg:flex'>
+
+                    <div className='text-center'>
+                        <h1 className='text-xl font-medium  mb-2'>Create an account</h1>
+                        <p>It's free to start. Tell us about your business and we'll find the best plan for your needs.</p>
+
+                    </div>
+                    <div className="divider lg:divider-horizontal"></div>
+
+
+
+
+                    <div className='text-center'>
+                        <h1 className='text-xl font-medium  mb-2'>Add your people</h1>
+                        <p>Enter your staff into Sayburgh. They can even self-onboard to save you time.</p>
+
+                    </div>
+
+                    <div className="divider lg:divider-horizontal"></div>
+
+
+
+                    <div className='text-center'>
+
+                        <h1 className='text-xl font-medium mb-2'>Run your first payroll</h1>
+                        <p>Once we have your staff and tax info, you can run payroll in just a few clicks.</p>
+
+                    </div>
+
+                </div>
+
             </div>
 
 
