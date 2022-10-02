@@ -1,0 +1,31 @@
+/* .change:hover{
+    visibility: collapse;
+} */
+
+.hovertext {
+    position: relative;
+    display: inline-block;
+    background: #CCEEFF;
+    
+    padding: 10px 10px;
+    border-radius: 6px;
+    
+    z-index: 1;
+  }
+  
+  .hovertext .hovertexttext {
+    visibility: hidden;
+    background: #AAAAEE;
+    position: absolute;
+    white-space: pre-line;
+    
+    padding: 10px 100px;
+    border-radius: 6px;
+    
+    z-index: 2;
+  }
+  
+  .hovertext:hover .hovertexttext {
+    visibility: visible;
+    
+  }
