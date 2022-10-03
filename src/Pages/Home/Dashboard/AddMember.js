@@ -14,12 +14,13 @@ const AddMember = () => {
     const [admin, setAdmin] = useAdminCard({
         name: "",
         email: "",
-        phone_number: ""
+        phone_number: "",
+        img: ""
     });
 
 
 
-    const { name, email, phone_number } = admin;
+    const { name, email, phone_number, img } = admin;
     const onInputChange = e => {
         setAdmin({ ...admin, [e.target.name]: e.target.value });
 
@@ -68,6 +69,16 @@ const AddMember = () => {
                                 class="input input-bordered input-accent w-full max-w-xs mb-2"
                                 placeholder="phone number"
                                 value={phone_number}
+                                onChange={e => onInputChange(e)}
+
+                            />
+                        </div>
+                        <div className='form-group'>
+                            <input
+                                type="img"
+                                class="input input-bordered input-accent w-full max-w-xs mb-2"
+                                placeholder="Photo Url"
+                                value={img}
                                 onChange={e => onInputChange(e)}
 
                             />
